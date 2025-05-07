@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location access is required to find your favorite place.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Select your favorite picture.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Select your favorite picture.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Microphone access is required for voice input.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
