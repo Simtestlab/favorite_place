@@ -1,6 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:favorite_place/screens/places_list.dart';
+import 'package:favorite_place/screens/places.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Favourite Places',
       theme: theme,
-      home: PlacesListScreen(),
+      home: PlacesScreen(),
     );
   }
 }
